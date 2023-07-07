@@ -124,3 +124,29 @@ body {
         opacity: 0;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    .container {
+        width: auto;
+        height: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .calculator {
+        margin: auto;
+        width: 250px;
+    }
+    #tip-amount {
+        visibility: hidden;
+        min-width: 200px;
+        margin: auto;
+        bottom: 40%;
+        position: fixed;
+    }
+}
